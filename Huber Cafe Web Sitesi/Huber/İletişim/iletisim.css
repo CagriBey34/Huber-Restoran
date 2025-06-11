@@ -1,0 +1,104 @@
+.navbar {
+  background-color: #181C14;
+  font-family: Copperplate, "Copperplate Gothic Light";
+}
+
+.navbar-brand,
+.nav-link {
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important;
+}
+.navbar-toggler {
+  background: #697565 !important;
+}
+
+.navbar-toggler:hover {
+  color: #ffcc00;
+}
+
+
+.forms {
+  background: #697565;
+  color: #ECDFCC;
+  font-family: Copperplate, "Copperplate Gothic Light";
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.form-container {
+  background: #fff;
+  color:#343a40;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 2rem;
+  max-width: 500px;
+  width: 100%;
+}
+
+
+.form-container h1 {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+
+.form-container .form-control {
+  border: 2px solid #697565;
+  border-radius: 10px;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-container .form-control:focus {
+  border-color: #1d3557;
+  box-shadow: 0 0 10px rgba(29, 53, 87, 0.5);
+}
+
+
+.form-container .btn {
+  background:#ECDFCC;
+  color:#343a40;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 20px;
+  transition: background 0.3s ease, transform 0.2s ease;
+}
+
+.form-container .btn:hover {
+  background:#343a40;
+  color: #ECDFCC;
+}
+.maps {
+  background-color:#697565;
+  
+}
+
+.btn {
+  border: 2px solid darkgray;
+}
+footer {
+  background-color: #343a40;
+  color: white;
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+footer .mail {
+  color: #ae9242;
+}
+footer .alt-satir {
+  font-size: 0.8rem;
+  opacity: 0.6;
+}

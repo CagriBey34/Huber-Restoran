@@ -1,0 +1,162 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #ECDFCC;
+}
+
+.navbar {
+    background-color: #181C14;
+    font-family: Copperplate, "Copperplate Gothic Light";
+}
+
+.navbar-brand,
+.nav-link {
+    color: #fff !important;
+}
+
+.nav-link:hover {
+    color: #ae9242 !important;
+}
+
+.navbar-toggler {
+    background: #697565;
+}
+
+.navbar-toggler:hover {
+    color: #ae9242;
+}
+
+.btn {
+    border: 2px solid darkgray;
+}
+
+.about-section {
+    padding: 3rem 1rem;
+}
+
+.about-section h2 {
+    color: #333;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-family: Copperplate, "Copperplate Gothic Light";
+}
+
+.about-section p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-section p:hover {
+    display: inline-block;
+    background: #ae9242;
+    color: black;
+    border-radius: 3px;
+}
+
+.about-section-table {
+    border: 3px solid #ae9242;
+    border-width: 10px;
+}
+
+.container {
+    margin: auto;
+}
+
+.info h2 {
+    font-family: bold;
+    color: #ae9242;
+    font-size: 2.5rem;
+    font-family: Copperplate, "Copperplate Gothic Light";
+}
+
+.info ul li {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.3rem;
+}
+
+.info ul li:hover {
+    background: #ae9242;
+}
+
+.galeri {
+    display: flex;
+    width: 100%;
+    height: 95vh;
+}
+
+.item {
+    flex: auto;
+    background-position: center;
+    background-size: cover;
+    transition: all 0.3s;
+    border: 3px solid #ae9242;
+    &:hover {
+        flex: 5;
+    }
+}
+
+.item-1 {
+    background-image: url(img/Huber-Web1.png);
+}
+
+.item-2 {
+    background-image: url(img/Huber-Web3.png);
+}
+
+.item-3 {
+    background-image: url(img/01261044.JPG);
+}
+
+.item-4 {
+    background-image: url(img/Huber-Web6.png);
+}
+
+.item-5 {
+    background-image: url(img/Huber-Web8.png);
+}
+
+.item-6 {
+    background-image: url(img/Huber\ Toplantı\ Odası.jpeg);
+}
+
+.btn {
+    background: #ae9242;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.btn:hover {
+    background-color: #697565;
+    color: black;
+}
+
+.img-huber {
+    opacity: 0.6;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+footer .mail {
+    color: #ae9242;
+}
+
+footer .alt-satir {
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.video {
+    border: 2px solid black !important;
+}
